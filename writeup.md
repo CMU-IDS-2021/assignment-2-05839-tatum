@@ -26,6 +26,4 @@ Another design problem I faced when creating the map was that the heatmap appear
 
 ## Success Story
 
-TODO:  **A success story of your project.** Describe an insight or discovery you gain with your application that relates to the goals of your project.
-
-
+An interesting insight I made by using this application was looking at what states seem to have the most stable temperatures. Generally, I assumes that the west coast would have very little temperature change within a day and within a year compared to other states. While California showed the second least change in temperature over the course of a year and the other two westr coast states, oOregon and Washington were in teh bottom twenty for change in a year, these states did not have very stable daily temperatures. In both daily temperature stability and annual temperature stability the east coast seemed to perform the best. The only states to be in the bottom 10 for temperature change both daily and annually were Florida, Louisiana, and Pennsylvania. I found this surprising as these states were nto necessarily associated with stable climates. As I looked more deeply into this I found that these states seem to have high amounts of pprecipitation compared to oter states (snow and rainfall) whereas the west coast states did have lower amounts of precipitation. THis may indicate that the common association with stable climates is more associated with lack of rain/storms rather than stable temperatures. 
