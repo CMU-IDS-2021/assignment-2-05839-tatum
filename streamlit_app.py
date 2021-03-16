@@ -103,8 +103,8 @@ def to_integer(dt_time, containerize):
 
 def showGraph(df, decision):
     columns = st.slider('Columns', 5, 40, 10)
-    asc = st.checkbox('Descending')
-    df = df.groupby('state').max()
+    asc = st.checkbox('Lowest to Highest')
+    df = df.groupby('state').mean()
     df = df.sort_values(by=decision, ascending = asc).head(columns)
     plot = sns.barplot(data=df, x = df['station'], y = df[decision], palette = sns.color_palette(n_colors=1))
     plt.setp(plot.get_xticklabels(), rotation=90)
